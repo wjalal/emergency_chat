@@ -80,6 +80,7 @@
 		</TextField>
 		<Button class="pa-4 mt-3 blue darken-3 grey-text text-lighten-5 rounded-xl align-self-center" 
 				on:click={onLogin}> <Icon path={mdiLogin} class="mr-3"/>  Login </Button>
+		<p class="grey-text text-caption">Test credentials — Usernames: test1, test2 — Password: ABCD1234</p>
 		</div>
 	</Card>
 </div>
