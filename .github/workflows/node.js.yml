@@ -28,6 +28,7 @@ jobs:
         cache: 'npm'
     - run: |
         cd backend
+        npm ci
         touch .env
         echo "${{ secrets.ENV_FILE }}" > .env
     - run: pm2 restart efscs
